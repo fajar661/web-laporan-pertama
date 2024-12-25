@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+    <title>Laporan</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="index.html" class="a-navbar">Home</a>
+                </li>
+                <li class=" li-navbar">
+                    <a href="laporan.html" class="a-navbar">Laporan</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="contact.html" class="a-navbar">CONCTACT</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="lihatlaporan.html" class="a-navbar">Lihat LAPORAN</a>
+                </li>
+            </ul>
+        </div>
+        <!-- NAVIGATION BAR SELESAI -->
+        <main>
+            <section id="home">
+                <h2>Selamat Datang</h2>
+                <p>Website ini dibuat untuk memudahkan para dosen dalam mengajukan pengaduan terhadap mahasiswa.</p>
+            </section>
+            <img src="logo-universitas-satya-terra-bhinneka-3000x3000 (1).png" class="img-content" />
+            <section id="laporan">
+                <h2>Laporan</h2>
+                <form id="form-laporan">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama"><br><br>
+                    <label for="kelas">Kelas:</label>
+                    <input type="text" id="kelas" name="kelas"><br><br>
+                    <label for="nim">Nim:</label>
+                    <input type="nim" id="nim" name="nim"><br><br>
+                    <label for="laporan">Laporan:</label>
+                    <textarea id="laporan" name="laporan"></textarea><br><br>
+                    <button id="kirim-laporan">Kirim Laporan</button>
+                </form>
+                <section id="lihat-laporan">
+                    <button>
+                        <a href="Lihatlaporan.html" class="a-navbar">Lihat Laporan</a>
+                    </button>
+                    <div id="daftar-laporan"></div>
+                </section>
+        </main>
+        <footer>
+            <script src="script.js"></script>
+            <div class="container-footer">
+                <h1 class="h1-footer">Website Ini Dibuat untuk Laporan Mahasiswa</h1>
+            </div>
+        </footer>
+    </div>
+    </div>
+</body>
+
+</html>

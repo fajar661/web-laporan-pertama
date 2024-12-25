@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>LIHAT LAPORAN</title>
+        <link rel ="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+        <!-- Navigation Bar -->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="index.html" class="a-navbar">Home</a>
+                </li>
+                <li class=" li-navbar">
+                    <a href="laporan.html" class="a-navbar">Laporan</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="contact.html" class="a-navbar">Contact</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="lihatlaporan.html" class="a-navbar">Lihat Laporan</a>
+                </li>
+            </ul>
+        </div>
+        <!-- NAVIGATION BAR SELESAI -->
+    <main>
+        <section id="home">
+            <h2>Selamat Datang</h2>
+            <p>Anda Bisa Melihat data yang sudah di input.</p>
+        </section>
+        <section id="laporan">
+            <h2>Laporan</h2>
+            <form id="form-laporan">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama"><br><br>
+                <label for="kelas">Kelas:</label>
+                <input type="text" id="kelas" name="kelas"><br><br>
+                <label for="nim">Nim:</label>
+                <input type="nim" id="nim" name="nim"><br><br>
+                <label for="laporan">Laporan:</label>
+                <textarea id="laporan" name="laporan"></textarea><br><br>
+                <button id="kirim-laporan">Kirim Laporan</button>
+            </form>
+        </section>
+        <section id="lihat-laporan">
+            <div id="daftar-laporan"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Laporan Mahasiswa</p>
+    </footer>
+
+    <script src="script.js"></script>
+        </div>
+    </body>
+</html>
